@@ -137,6 +137,7 @@ PRODUCT_PACKAGES += \
     fstab.qcom \
     fstab.qcom.vendor_ramdisk \
     fstab.qcom.zram \
+    loggy.rc \
     init.mmi.charge_only.rc \
     init.mmi.chipset.rc \
     init.mmi.rc \

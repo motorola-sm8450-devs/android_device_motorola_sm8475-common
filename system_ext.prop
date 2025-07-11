@@ -33,5 +33,8 @@ ro.media.recorder-max-base-layer-fps=60
 # Sensors
 persist.vendor.sensors.enable.mag_filter=true
 
+# Silence minksocket logs
+persist.log.tag.minksocket=S
+
 # Vendor
 ro.vendor.qti.va_aosp.support=1

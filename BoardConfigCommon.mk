@@ -75,6 +75,7 @@ BOARD_KERNEL_CMDLINE += \
     firmware_class.path=/data/vendor/param/firmware \
     printk.devkmsg=on \
     sysctl.kernel.firmware_config.force_sysfs_fallback=1
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 BOARD_BOOTCONFIG += \
     androidboot.hardware=qcom \
     androidboot.memcg=1 \

@@ -4,6 +4,7 @@
 /(vendor|system/vendor)/bin/charge_only_mode            u:object_r:charge_only_exec:s0
 
 # Fingerprint
+/vendor/bin/hw/android\.hardware\.biometrics\.fingerprint@2\.1-service\.hiphi                           u:object_r:hal_fingerprint_default_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.biometrics\.fingerprint@2\.3-service\.moto_sm8475_fod u:object_r:hal_fingerprint_default_exec:s0
 
 # Touch

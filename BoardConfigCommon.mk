@@ -127,9 +127,11 @@ TARGET_KERNEL_EXT_MODULES += \
     motorola/drivers/power/mmi_charger \
     motorola/drivers/power/qti_glink_charger \
     motorola/drivers/power/qpnp_adaptive_charge \
+    motorola/drivers/power/bq27426_fg_mmi \
     motorola/drivers/power/cw2217b_fg_mmi \
     motorola/drivers/power/sgm4154x_charger_lite \
     motorola/drivers/misc/utag \
+    motorola/drivers/misc/mmi_stow \
     motorola/drivers/mmi_relay \
     motorola/drivers/moto_f_mass_storage \
     motorola/drivers/moto_f_usbnet \
@@ -154,7 +156,8 @@ TARGET_KERNEL_EXT_MODULES += \
     motorola/drivers/moto_swap \
     motorola/drivers/nfc/st21nfc \
     motorola/drivers/nfc/sn2xx \
-    motorola/drivers/ese/st54x
+    motorola/drivers/ese/st54x \
+    motorola/drivers/wlan_antenna
 
 # Metadata
 BOARD_USES_METADATA_PARTITION := true

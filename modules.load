@@ -209,6 +209,7 @@ stm_p_ost.ko
 stm_console.ko
 stm_ftrace.ko
 snd-usb-audio-qmi.ko
+cfg80211.ko
 qrtr-smd.ko
 qrtr-mhi.ko
 qrtr-gunyah.ko
@@ -248,6 +249,7 @@ wcd938x_slave_dlkm.ko
 wcd937x_dlkm.ko
 wcd937x_slave_dlkm.ko
 aw882xx_dlkm.ko
+aw87xxx_dlkm.ko
 fs19xx_dlkm.ko
 hdmi_dlkm.ko
 camera.ko
@@ -298,9 +300,14 @@ slg5bm43670.ko
 mmi_sys_temp.ko
 smart_pen_charger.ko
 qpnp_adaptive_charge.ko
+bq27426_fg_mmi.ko
 cw2217b_fg_mmi.ko
 sgm4154x_charger_lite.ko
 wl2864c.ko
+wlan_antenna.ko
+wl2866d.ko
+dio8015.ko
+mmi_stow.ko
 moto_mm.ko
 moto_swap.ko
 gpio_keys.ko

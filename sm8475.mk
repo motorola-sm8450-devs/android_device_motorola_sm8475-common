@@ -381,6 +381,10 @@ DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
 DEVICE_MATRIX_FILE := hardware/qcom-caf/common/compatibility_matrix.xml
 DEVICE_MANIFEST_FILE += device/motorola/sm8475-common/vintf/manifest.xml
 
+ifneq ($(TARGET_NO_STRONGBOX),true)
+DEVICE_MANIFEST_FILE += device/motorola/sm8475-common/vintf/manifest_strongbox.xml
+endif
+
 # WiFi
 PRODUCT_PACKAGES += \
     android.hardware.wifi-service \

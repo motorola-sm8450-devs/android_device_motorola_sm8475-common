@@ -1,0 +1,6 @@
+# All unpinned blobs below are extracted from the release mentioned in proprietary-files.txt
+
+# Keymaster
+vendor/bin/hw/android.hardware.keymaster@4.0-strongbox-service-qti
+vendor/etc/init/android.hardware.keymaster@4.0-strongbox-service-qti.rc
+vendor/etc/permissions/sku_cape/android.hardware.strongbox_keystore.xml

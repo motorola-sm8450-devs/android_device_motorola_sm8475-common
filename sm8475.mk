@@ -389,6 +389,8 @@ DEVICE_MANIFEST_FILE += device/motorola/sm8475-common/vintf/manifest.xml
 
 ifneq ($(TARGET_NO_STRONGBOX),true)
 DEVICE_MANIFEST_FILE += device/motorola/sm8475-common/vintf/manifest_strongbox.xml
+else
+DEVICE_MANIFEST_FILE += device/motorola/sm8475-common/vintf/manifest_tee.xml
 endif
 
 # WiFi

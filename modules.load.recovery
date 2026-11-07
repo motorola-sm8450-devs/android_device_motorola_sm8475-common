@@ -316,6 +316,7 @@ qrtr-gunyah.ko
 msm_drm.ko
 msm-mmrm.ko
 goodix_brl_mmi.ko
+stmicro_mmi.ko
 mmi_annotate.ko
 mmi_info.ko
 mmi_relay.ko

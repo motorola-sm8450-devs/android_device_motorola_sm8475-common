@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from 16 W1TBS36H.1-63-2-8 df4a7c-e4f844 release-keys.
+# All unpinned blobs below are extracted from 16 W1TBS36H.1-63-2-9 c74e7-5da0b6 release-keys.
 
 # ADSP
 vendor/bin/adsprpcd
@@ -473,6 +473,8 @@ vendor/etc/init/hw/init.qti.kernel.rc
 vendor/bin/hw/android.hardware.keymaster@4.1-service-qti
 vendor/bin/init.qti.keymaster.sh
 vendor/etc/init/android.hardware.keymaster@4.1-service-qti.rc
+vendor/etc/permissions/sku_cape/android.hardware.strongbox_keystore.xml
+vendor/etc/permissions/sku_taro/android.hardware.strongbox_keystore.xml
 vendor/etc/permissions/android.hardware.hardware_keystore.xml:vendor/etc/permissions/android.hardware.hardware_keystore.km100.xml
 vendor/lib64/libkeymasterdeviceutils.so
 vendor/lib64/libkeymasterprovision.so
